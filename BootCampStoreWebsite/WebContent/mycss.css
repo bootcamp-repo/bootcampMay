@@ -1,0 +1,170 @@
+
+body {
+	background:#ffffff;
+	margin:0px;
+}
+header {background-color:#004040;
+	color: #ffffff;
+	color:inherit;
+	height:80px;
+	margin-bottom: 0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 3px;
+	padding:5px;
+}
+logo{
+	font-family: "Times New Roman", Times, serif;
+	width:auto;
+	font-size: 350%;
+	text-align: left;
+	color:#ffffff;
+
+}
+login{
+    right: 0px;
+    width: 200px;
+	font-size:70%;
+	
+	text-align:left;
+	float:right;
+    height:30px;
+    padding-top:40px;
+	padding-left:0px;
+	padding-right:0px;	
+}
+div {
+	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+	margin-bottom: 0px;
+	
+}
+.top{background-color:#008080;
+	height:30px;
+	margin:0px;
+	margin-top:1px;
+	width:auto;
+	padding-left:15px;
+	font-size: 100%;
+	color:#ffff00;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:left;
+
+}
+a:link, a:visited {
+    display: block;
+    width:auto;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+	padding-right:20px;
+    text-decoration: none;
+	
+}
+.mid{margin:0px; 
+	background-color: #FFFAFA;
+	width:100.25%; 
+	height:auto;
+	overflow:hidden;
+	padding-left:1.5%;}
+.medium_box{
+	background-color:#FFFAFA;
+	line-height: 150%;
+	font-size:100%;
+	text-align:left;
+    width:60%;
+	float:left;
+    height:auto;
+	min-height:350px;
+	margin-left :10%;
+	margin-right :10%;
+    padding-top:1 px;
+	padding-left:20%;
+	}
+
+.submit_button{
+	width:240px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:14px;
+	background-color:#400080;
+	color:	white;
+		}
+.signin_button{
+	width:80px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:14px;
+	background-color:#400080;
+	color:	white;
+		}
+
+.small_box{
+	background-color:#FFFAFA;
+    width:310px;
+	float:left;
+    height:350px;
+	margin :20px;
+    padding-top:40px;
+	}
+
+.bottom{background-color:#696969;
+	height:150px;
+	margin-left:0px;
+	width:100%;
+	color: white;
+	padding-bottom:20px;
+	}
+contact{
+	margin-left:30px;
+	right: 0px;
+    width: 300px;
+	font-size: 100%;
+	text-align: left;
+	float:right;
+    height:150px;
+	
+   
+}
+legal{
+	margin-right:0px;
+	height:150px;
+	right:0px;
+    width: 500px;
+	font-size: 100%;
+	text-align: left;
+	padding-left:10%;
+	float:left;  
+}
+blue_char{
+	color: blue;
+	padding-left:25px;
+	padding-top:1px;
+	font-size:80%;
+	line-height:10%;
+}
+align_center{
+	color:Black;
+	line-height:50px;
+	font-size:17px;
+	font-weight: bold;
+	width: 200px;
+	text-align:center;
+	padding-left:85px;
+	
+	
+}
+
+
+
+
