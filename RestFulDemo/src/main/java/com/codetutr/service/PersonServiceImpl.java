@@ -11,6 +11,7 @@ public class PersonServiceImpl implements PersonService {
 
 	String[] names = {"Nikolaus Otto", "Robert Ford", "Gottlieb Daimler", "Lt. General Masaharu Homma"};
 
+	@Override
 	public Person getRandom() {
 		Person person = new Person();
 		person.setName(randomName());
@@ -18,18 +19,18 @@ public class PersonServiceImpl implements PersonService {
 		return person;
 	}
 
+	@Override
 	public Person getById(Long id) {
 		Person person = new Person();
 		person.setName(names[id.intValue()]);
 		person.setAge(50);
 		return person;
 	}
-
+	
+	@Override
 	public void save(Person person) {
-		// TODO Auto-generated method stub
-		
+		// Save person to database ...
 	}
-
 	
 	private Integer randomAge() {
 		Random random = new Random();
