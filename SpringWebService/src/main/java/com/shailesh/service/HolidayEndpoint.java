@@ -3,16 +3,18 @@ package com.shailesh.service;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.jdom.Element;
-import org.jdom.JDOMException;
-import org.jdom.Namespace;
-import org.jdom.xpath.XPath;
+import org.jdom2.Namespace;
+import org.jdom2.JDOMException;
+
+import org.jdom2.xpath.XPath;
+import org.jdom2.Element;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
+@SuppressWarnings("deprecation")
 @Endpoint
 public class HolidayEndpoint {
 
