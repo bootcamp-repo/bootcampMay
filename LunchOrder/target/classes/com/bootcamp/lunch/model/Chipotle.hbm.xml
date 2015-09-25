@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bootcamp.lunch.model.Chipotle" table="chipotle" >
+       <meta attribute="class-description">
+         This class contains the Chipotle Order detail. 
+      </meta>
+      <id name="id" type="int" column="id">
+         <generator class="native"/>
+      </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="meat" type="string">
+            <column name="meat" />
+        </property>
+        <property name="taco_quantity" type="string">
+            <column name="taco_quantity" />
+        </property>
+        <property name="tortilla" type="string">
+            <column name="tortilla" />
+        </property>
+        <property name="rice" type="string">
+            <column name="rice" />
+        </property>
+        <property name="beans" type="string">
+            <column name="beans" />
+        </property>
+        <property name="toppings" type="string">
+            <column name="toppings" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bootcamp.lunch.model.WhichWich" table="whichwich" >
+       <meta attribute="class-description">
+         This class contains the WhichWich Order detail. 
+      </meta>
+      <id name="id" type="int" column="id">
+         <generator class="native"/>
+      </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="meat" type="string">
+            <column name="meat" />
+        </property>
+        <property name="whichWay" type="string">
+            <column name="whichWay" />
+        </property>
+        <property name="cheese" type="string">
+            <column name="cheese" />
+        </property>
+        <property name="mustard" type="string">
+            <column name="mustard" />
+        </property>
+        <property name="mayo" type="string">
+            <column name="mayo" />
+        </property>
+        <property name="spreadNSause" type="string">
+            <column name="spreadNSause" />
+        </property>
+        <property name="dressings" type="string">
+            <column name="dressing" />
+        </property>
+        <property name="onion" type="string">
+            <column name="onion" />
+        </property>
+        <property name="veggiesnMore" type="string">
+            <column name="veggiesnMore" />
+        </property>
+        <property name="oilnSpices" type="string">
+            <column name="oilnSpices" />
+        </property>
+    </class>
+</hibernate-mapping>

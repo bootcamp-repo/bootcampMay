@@ -1,0 +1,43 @@
+/* ========== Custom styles for radio and checkbox =============== */
+    input[type="radio"],            /* hiding the default checkbox and radio button */
+    input[type="checkbox"] {
+      display:none;
+    }
+    
+    input[type="radio"] + span:before,  /* Styling and positioning */
+    input[type="checkbox"] + span:before { 
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';  /* Glyphicons replace the default elements */ 
+      font-weight: 100;
+      line-height: 1;
+    }
+    
+    
+    input[type="radio"] + span:before {
+      content: "\e165";    /* glyphicon record */
+      color: #2196F3;
+      margin-right: 5px;
+    }
+    
+    input[type="radio"]:checked + span:before {
+      content: "\e089";    /* glyphicon ok-circle */
+      color: #008F00;
+    }
+    
+    
+    input[type="checkbox"] + span:before {
+      content: "\e157";   /* glyphicon unchecked */
+      color: #2196F3;
+      margin-right: 5px;
+    }
+    
+    input[type="checkbox"]:checked + span:before {
+      content: "\e067";   /* glyphicon checked */
+      color: #008F00;
+    }
+    
+    .checkbox label, .radio label {
+        padding-left: 0px;
+    }
